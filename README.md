@@ -1,3 +1,5 @@
+A Comparative Study of Deep Learning Models for Hematological Disorder Classification with Explainable AI
+
 1. Overview
 Hematologic diseases such as anemia, leukemia, and thrombocytopenia are major contributors of morbidity worldwide and are regularly diagnosed through Complete Blood Count (CBC) tests. Nonetheless, CBC interpretation is subjective and susceptible to inter-observer variation, especially in resource-constrained facilities without a specialist hematologist.
 This work presents a cohesive deep learning (DL) and explainable artificial intelligence (XAI) framework for automated multi-class classification of fifteen hematological disorders using common numerical CBC parameters. Sourced from a clinically validated dataset of 7,196 patient records with 16 numeric features, the proposed framework bridges the gap between black-box deep learning models and clinical transparency through multi-tiered XAI methods (Gradient Saliency, Permutation Importance, SHAP, and LIME).
