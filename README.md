@@ -1,4 +1,4 @@
-A Comparative Study of Deep Learning Models for Hematological Disorder Classification with Explainable AI
+# A Comparative Study of Deep Learning Models for Hematological Disorder Classification with Explainable AI
 
 1. Overview
 Hematologic diseases such as anemia, leukemia, and thrombocytopenia are major contributors of morbidity worldwide and are regularly diagnosed through Complete Blood Count (CBC) tests. Nonetheless, CBC interpretation is subjective and susceptible to inter-observer variation, especially in resource-constrained facilities without a specialist hematologist.
