@@ -5,6 +5,8 @@ This work presents a cohesive deep learning (DL) and explainable artificial inte
 • Data Preprocessing:  Evaluated on 7,196 patient records featuring 16 numeric blood parameters and 15 target classes. Steps include deduplication, standard Z-score scaling, and stratified 80:20 training-to-testing partitioning. Features were reshaped into 3D sequential representations (samples × features × 1) for 1D convolution and recurrent sequence modeling.
 • Deep Learning Architectures:  Comparative evaluation of four standalone deep learning baselines (ANN, 1D-CNN, SimpleRNN, LSTM) alongside three sequential hybrid architectures (CNN + BiLSTM, RNN + BiLSTM, and CNN + RNN + BiLSTM).
 • Explainable AI (XAI) Framework:  Integration of built-in gradient saliency, model-agnostic permutation feature importance, SHAP (GradientExplainer) for global and per-class attribution, and LIME for patient-specific linear surrogate explanations.
+
+```text
 [Raw CBC Data (16 Numeric Parameters)]
                  │
                  ▼
@@ -21,7 +23,7 @@ This work presents a cohesive deep learning (DL) and explainable artificial inte
                  │
                  ▼
 [Transparent Clinical Decision Support]
-3. Key Findings & Experimental Results
+4. Key Findings & Experimental Results
 The table below summarizes the quantitative evaluation across all seven evaluated deep learning and hybrid architectures on the 20% held-out test set:
 Model Architecture	Accuracy (%)	Precision (%)	Recall (%)	F1-Score (%)
 1D-CNN (Best Standalone)	94.44%	94.47%	94.44%	94.42%
